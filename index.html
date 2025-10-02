@@ -94,7 +94,8 @@
     Wishing you lots of love, laughter, and happiness today and always 💖</div>
 
   <script>
-    const targetDate = new Date("2025-10-16T00:00:00").getTime();
+    // 🎯 Countdown target: 2nd October 2025, 13:25 (local time)
+    const targetDate = new Date("2025-10-02T13:25:00").getTime();
 
     function updateCountdown() {
       const now = new Date().getTime();
@@ -137,7 +138,6 @@
       const end = Date.now() + duration;
 
       (function frame() {
-        const colors = ["#ff0", "#0f0", "#0ff", "#f0f", "#fff"];
         const confetti = document.createElement("div");
         confetti.innerHTML = "🎉";
         confetti.style.position = "fixed";
